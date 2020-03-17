@@ -1,0 +1,54 @@
+[package]
+name = "relox"
+version = "0.1.0"
+authors = ["Tamas Petz <tamas.is.petz@gmail.com>"]
+edition = "2018"
+description = "ELF32 relocation compression and decompression"
+readme = "README.md"
+repository = "https://github.com/tamaspetz/relox"
+license = "MIT OR Apache-2.0"
+keywords = ["elf", "embedded", "relocation"]
+categories = ["compression", "embedded", "no-std"]
+publish = false
+include = [
+    "Cargo.toml",
+    "src/**/*.rs",
+    "README.md",
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
+]
+
+[dependencies.byteorder]
+version = "1.3.4"
+default-features = false
+
+[dev-dependencies]
+rand = "0.7.3"
+
+[features]
+default = [
+    "compress",
+    "decompress",
+]
+host = [
+    "compress",
+]
+embedded = [
+    "no_std",
+    "decompress",
+]
+embedded_minimal = [
+    "no_std",
+    "decompress",
+    "no_bounds_check",
+    "no_sanity_check",
+]
+
+compress = [
+    # TODO: get rid of this dependency
+    "byteorder/std"
+]
+decompress = []
+no_std = []
+no_bounds_check = []
+no_sanity_check = []

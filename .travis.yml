@@ -1,4 +1,11 @@
+dist: bionic
+sudo: required
 language: rust
+
+before_install:
+  - sudo add-apt-repository 'deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-9 main'
+  - sudo apt-get update
+  - sudo apt-get install lcov llvm-9 -y
 
 script:
   - make build

@@ -2,9 +2,9 @@
 
 [Latest Version]: https://img.shields.io/crates/v/relox.svg
 [crates.io]: https://crates.io/crates/relox
-[Build Status]: https://api.travis-ci.org/tamaspetz/relox.svg?branch=master
+[Build Status]: https://api.travis-ci.org/tamaspetz/relox.svg?branch=develop
 [travis]: https://travis-ci.org/tamaspetz/relox
-[Code Coverage]:https://codecov.io/gh/tamaspetz/relox/branch/master/graph/badge.svg?token=4WWCZ8G7C2
+[Code Coverage]:https://codecov.io/gh/tamaspetz/relox/branch/develop/graph/badge.svg?token=4WWCZ8G7C2
 [codecov]:https://codecov.io/gh/tamaspetz/relox
 
 

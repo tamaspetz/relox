@@ -2,6 +2,12 @@ dist: bionic
 sudo: required
 language: rust
 
+branches:
+  only:
+  - master
+  - develop
+  - travis-ci
+
 before_install:
   - sudo add-apt-repository 'deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-9 main'
   - sudo apt-get update

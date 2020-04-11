@@ -1,5 +1,5 @@
+os: linux
 dist: bionic
-sudo: required
 language: rust
 
 branches:
@@ -9,6 +9,7 @@ branches:
   - travis-ci
 
 before_install:
+  - wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
   - sudo add-apt-repository 'deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-9 main'
   - sudo apt-get update
   - sudo apt-get install lcov llvm-9 -y

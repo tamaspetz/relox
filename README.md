@@ -1,4 +1,14 @@
-## Compress and decompress ELF32 relocation sections
+# relox [![Latest Version]][crates.io] [![Build Status]][travis] [![Code Coverage]][codecov]
+
+[Latest Version]: https://img.shields.io/crates/v/relox.svg
+[crates.io]: https://crates.io/crates/relox
+[Build Status]: https://api.travis-ci.org/tamaspetz/relox.svg?branch=master
+[travis]: https://travis-ci.org/tamaspetz/relox
+[Code Coverage]:https://codecov.io/gh/tamaspetz/relox/branch/master/graph/badge.svg?token=4WWCZ8G7C2
+[codecov]:https://codecov.io/gh/tamaspetz/relox
+
+
+# Compress and decompress ELF32 relocation sections
 
 This crate can be used to compress ELF32 relocation sections post-link time.
 It also provides a decompressing method which can be used during relocation.

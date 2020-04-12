@@ -9,7 +9,6 @@ repository = "https://github.com/tamaspetz/relox"
 license = "MIT OR Apache-2.0"
 keywords = ["elf", "embedded", "relocation"]
 categories = ["compression", "embedded", "no-std"]
-publish = false
 include = [
     "Cargo.toml",
     "src/**/*.rs",
@@ -17,6 +16,12 @@ include = [
     "LICENSE-APACHE",
     "LICENSE-MIT"
 ]
+
+[badges]
+maintenance = { status = "passively-maintained" }
+is-it-maintained-issue-resolution = { repository = "tamaspetz/relox" }
+is-it-maintained-open-issues = { repository = "tamaspetz/relox" }
+travis-ci = { repository = "tamaspetz/relox" }
 
 [dependencies.byteorder]
 version = "1.3.4"

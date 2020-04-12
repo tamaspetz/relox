@@ -20,5 +20,5 @@ script:
   - make test
   - make test-coverage
 
-after_success: |
+after_success:
   - bash <(curl -s https://codecov.io/bash) -f "target/debug/coverage/lcov.info"

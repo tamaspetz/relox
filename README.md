@@ -1,10 +1,23 @@
 # relox
 
-[![Latest Version](https://img.shields.io/crates/v/relox.svg)](https://crates.io/crates/relox)
-[![Documentation](https://docs.rs/relox/badge.svg)](https://docs.rs/relox/)
-[![Release](https://img.shields.io/github/release/tamaspetz/relox.svg)](https://github.com/tamaspetz/relox/releases/latest)
-[![Build Status](https://travis-ci.com/tamaspetz/relox.svg?branch=develop)](https://travis-ci.com/tamaspetz/relox)
-[![Code Coverage](https://codecov.io/gh/tamaspetz/relox/branch/develop/graph/badge.svg?token=4WWCZ8G7C2)](https://codecov.io/gh/tamaspetz/relox)
+[![Latest Version]][crates.io]
+[![Documentation]][docs.rs]
+[![License]]()
+[![Latest Release]][github.com.release]
+[![Build Status (develop)]][travis.ci]
+[![Code Coverage (develop)]][codecov.io]
+
+[Latest Version]: https://img.shields.io/crates/v/relox.svg?style=flat-square&color=blue
+[crates.io]: https://crates.io/crates/relox
+[Documentation]: https://img.shields.io/badge/docs.rs-relox-blue?style=flat-square
+[Latest Release]: https://img.shields.io/github/release/tamaspetz/relox.svg?style=flat-square&logo=github
+[github.com.release]: https://github.com/tamaspetz/relox/releases/latest
+[docs.rs]: https://docs.rs/relox
+[License]: https://img.shields.io/crates/l/relox?style=flat-square
+[Build Status (develop)]: https://img.shields.io/travis/com/tamaspetz/relox/develop?style=flat-square&logo=travis%20ci
+[travis.ci]: https://travis-ci.com/tamaspetz/relox
+[Code Coverage (develop)]: https://img.shields.io/codecov/c/gh/tamaspetz/relox?style=flat-square&logo=codecov
+[codecov.io]: https://codecov.io/gh/tamaspetz/relox
 
 # Compress and decompress ELF32 relocation sections
 

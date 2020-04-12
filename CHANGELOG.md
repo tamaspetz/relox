@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Improved badges in [README.md](README.md).
+
 ## [0.1.0] - 2020-04-12
+
 ### Added
 - Support for compression and decompression of ELF32 relocation sections (.rel.*).
 
